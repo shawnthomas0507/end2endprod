@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: dscproject
+Version: 0.0.1
+Author: ShawnT
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Dynamic: author
+Dynamic: requires-dist
