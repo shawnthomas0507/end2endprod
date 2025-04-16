@@ -24,3 +24,9 @@ logging.basicConfig(
 
 
 
+
+
+"""
+when i write name==main that means im saying run the code in this block
+only if the file is run directly and not id its imported as a module somewhere else.
+"""
