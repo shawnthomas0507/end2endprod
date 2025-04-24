@@ -4,7 +4,6 @@ seaborn
 ipykernel
 scikit-learn
 matplotlib
-catboost
 xgboost
 dill
 flask
