@@ -90,7 +90,7 @@ jobs:
           run: |
             docker pull $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
 
-        - name: Run Docker image:
+        - name: Run Docker image
           env:
             ECR_REGISTRY: ${{ steps.ecr-login.outputs.registry }}
             ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
